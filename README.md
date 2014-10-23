@@ -4,7 +4,11 @@ An extensible clearfix. Used in [furtive.css](http://furtive.co).
 
 ## Installation
 
-Using [rework-npm](https://github.com/reworkcss/rework-npm):
+It's recommended to use [rework-npm](https://github.com/reworkcss/rework-npm):
+
+```
+npm install --save furtive-clearfix
+```
 
 ```javascript
 var rework = require('rework'),
@@ -12,12 +16,6 @@ var rework = require('rework'),
 
 var output = rework('@import "furtive-clearfix";', { source: 'my-file.css' })
     .use(reworkNPM());
-```
-
-Or, through npm the old-fashioned way:
-
-```
-npm install --save furtive-clearfix
 ```
 
 ## Usage
